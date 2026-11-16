@@ -1,0 +1,19 @@
+{
+  "name": "blockchainiq-langchain-tool",
+  "version": "1.0.0",
+  "description": "LangChain tool that buys Blockchain IQ crypto data per call over x402 (USDC on Base)",
+  "type": "module",
+  "main": "index.mjs",
+  "license": "MIT",
+  "scripts": {
+    "demo": "node demo.mjs"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.4.1",
+    "@x402/evm": "^2.31.0",
+    "@x402/fetch": "^2.31.0",
+    "dotenv": "^17.2.0",
+    "viem": "^2.38.0",
+    "zod": "^4.1.0"
+  }
+}
